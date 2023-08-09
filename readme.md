@@ -5,3 +5,4 @@
 - Project1: Cat Photo App 2023.8.6-2023.8.7
 - Project2: Cafe Menu 2023.8.8
 - Project3: a Set of Colored Markers 2023.8.8
+- Project4: Registration Form 2023.8.9
