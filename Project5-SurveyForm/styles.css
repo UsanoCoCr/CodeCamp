@@ -1,0 +1,71 @@
+body {
+    width: 80%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(https://img1.baidu.com/it/u=1173914767,1162134974&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=5000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    margin: auto;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 70vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    color: black;
+}
+
+input,
+textarea {
+    background-color: white;
+    border: 1px solid #0a0a23;
+    color: black;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #687edd;
+    border-color: white;
+    min-width: 300px;
+}
+
+a {
+    color: #0c0cc0;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}

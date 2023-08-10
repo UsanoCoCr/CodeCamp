@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>原神玩家调查表</title>
+</head>
+
+<body>
+    <h1 id="title">提瓦特登记表</h1>
+    <p id="description">为了让您更好的启动原神，派蒙希望您能够提供一些个人信息~</p>
+    <form id="survey-form">
+        <label id="name-label">姓名<input id="name" type="text" required placeholder="在这里写下您的名字~"></label>
+        <label id="email-label">邮箱<input id="email" type="email" required placeholder="在这里输入您的邮箱~"></label>
+        <label id="number-label">年龄（选填）<input id="number" type="number" min="3" max="30" placeholder="在这里输入您的年龄~"></label>
+        <label>您有多喜欢原神？
+            <select id="dropdown" required>
+                <option disabled selected value>请选择一个选项</option>
+                <option value="1">非常喜欢！！</option>
+                <option value="2">喜欢捏</option>
+                <option value="3">一般般啦</option>
+                <option value="4">嗯~讨厌~</option>
+            </select>
+        </label>
+        <label>您每周玩原神的时间是？
+            <input type="radio" name="radio-button" class="inline" value="1">1-5小时
+            <input type="radio" name="radio-button" class="inline" value="2">5-10小时
+            <input type="radio" name="radio-button" class="inline" value="3">10-20小时
+            <input type="radio" name="radio-button" class="inline" value="4">20小时以上
+        </label>
+        <label>
+            <input type="checkbox" name="checkbox" value="1" class="inline" required>我已知晓并下载<a href="https://ys.mihoyo.com/" target="_blank">原神</a>
+            </br>
+            <input type="checkbox" name="checkbox" value="2" class="inline" required>我已关注<a href="https://space.bilibili.com/1265680561?spm_id_from=333.337.0.0" target="_blank">永雏塔菲</a>
+        </label>
+        <label>您对原神未来的开发有什么建议？
+            <textarea id="comments" placeholder="在这里写下您的建议~" rows="3" cols="30"></textarea>
+        </label>
+        <input type="submit" id="submit" value="提交">
+    </form>
+
+</body>
+
+</html>
