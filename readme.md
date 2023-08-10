@@ -7,3 +7,4 @@
 - Project3: a Set of Colored Markers 2023.8.8
 - Project4: Registration Form 2023.8.9
 - Project5: Survey Form 2023.8.10
+- Project6: Rothto Painting 2023.8.10
