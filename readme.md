@@ -9,3 +9,4 @@
 - Project5: Survey Form 2023.8.10
 - Project6: Rothto Painting 2023.8.10
 - Project7: Photo Gallery 2023.8.12
+- Project8: Nutrition Label 2023.8.14
